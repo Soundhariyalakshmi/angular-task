@@ -1,0 +1,40 @@
+h2 {
+  margin-top: 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+div {
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 24px;
+  font-family: 'lato';
+  margin-bottom: 20px;
+}
+input,
+select {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px;
+  padding: 5px;
+  outline: none;
+  margin-left: 40px;
+}
+select {
+  width: 210px;
+}
+label {
+  width: 200px;
+  font-weight: bold;
+}
+button {
+  border: 3px solid green;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 110px;
+  border-color: green;
+}

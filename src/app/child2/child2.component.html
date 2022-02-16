@@ -1,0 +1,13 @@
+<div>
+  <h2>Component 2</h2>
+  <label>IPL Team Name : </label> {{ sharedService.sharedValue2 }}<br /><br />
+  <label
+    >User Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+  </label>
+  {{ sharedService.sharedValue1 }} <br /><br />
+  <label>Bidding price ($) : </label>
+  <input type="number" [(ngModel)]="child2Value" />
+
+  <br /><br /><br />
+  <button (click)="setSharedValue()">Send Data</button>
+</div>
